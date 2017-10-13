@@ -1,0 +1,284 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Rafael Carvalho</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.0.16/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+    <section class="hero is-primary is-fullheight page-bg">
+        <!-- Hero header: will stick at the top -->
+        <div class="hero-header">
+            <header class="header">
+                <div class="container">
+                    <div class="header-left">
+                        <div class="header-item">
+                            <h1 class="title"></h1>
+                        </div>
+                    </div>
+                    <div class="header-right header-menu is-mobile">
+                        <span class="header-item">
+                            <a class="button is-inverted" href="https://github.com/rpaschoal" target="_blank">
+                                <i class="fa fa-github"></i>
+                                Github Profile
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-content">
+            <div class="container">
+
+                <article class="media">
+                    <div class="media-left">
+                        <figure class="image is-128x128">
+                            <img src="https://avatars3.githubusercontent.com/u/12396249?s=460&v=4" class="profile">
+                        </figure>
+                    </div>
+                    <div class="media-content">
+                        <div class="content">
+                            <h1 class="title is-1">
+                                Rafael Paschoal de Carvalho
+                            </h1>
+                            <p class="subtitle is-3">
+                                Senior Developer
+                            </p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-footer">
+            <nav class="tabs is-boxed is-fullwidth">
+                <div class="container">
+                    <ul>
+                        <li>
+                            <a onclick="toggleClass('work-experience-modal')">
+                                <span class="icon">
+                                    <i class="fa fa-briefcase"></i>
+                                </span>
+                                Work Experience
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="toggleClass('skills-modal')">
+                                <span class="icon">
+                                    <i class="fa fa-code-fork"></i>
+                                </span>
+                                Skills
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/rafaelpaschoal/" target="_blank">
+                                <span class="icon">
+                                    <i class="fa fa-linkedin-square"></i>
+                                </span>
+                                Linkedin
+                            </a>
+                        </li>
+                        <li>
+                            <a onclick="toggleClass('contact-modal')">
+                                <span class="icon">
+                                    <i class="fa fa-envelope-o "></i>
+                                </span>
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <div class="modal" id="work-experience-modal">
+        <div class="modal-background" onclick="toggleClass('work-experience-modal');"></div>
+        <div class="modal-content">
+            <div class="box">
+                <div class="content">
+                    <h1 class="title is-text-centered"> Work Experience</h1>
+                    <ul class="no-list work">
+                        <li>
+                            <h5 class="title is-5">Senior Developer<span class="tag is-success is-pulled-right">2017-Present</span></h5>
+                            <h6>Promapp</h6>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Senior Software Developer<span class="tag is-warning is-pulled-right">2015-2017</span></h5>
+                            <h6>Private Flight</h6>
+                            <blockquote>
+                                Advising directly in Software Architecture solutions for massive scale, resiliency and maintainability.
+                                <br /><br />
+                                Guaranteeing code quality by executing peer code reviews of the development team members.
+                                <br /><br />
+                                Designing and Developing Private Flight's new SaaS platform using ASP.NET Core, .NET Standard Library, Entity Framework 6, xUnit, SQL Server, MongoDB, Angular 2, TypeScript and JavaScript.
+                                <br /><br />
+                                Full-Stack development of Private Flight existing portals through ASP.NET MVC, ASP.NET Web API, JavaScript, jQuery, HTML and CSS. Creating and implementing robust and complex SQL Server stored procedures and queries.
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Systems Analyst<span class="tag is-warning is-pulled-right">2013-2015</span></h5>
+                            <h6>Agência Interag</h6>
+                            <blockquote>
+                                Important role in Requirements Engineering elicitation, analysis, specification and validation of requirements of Level 2`s Systems with all personas involved in the projects I worked (Common Artifacts: UML 2.0 Diagrams, BPMN and Visio Diagrams).
+                                <br /><br />
+                                Important role in Software Architecture and Software Engineering of the projects I was allocated to.
+                                <br /><br />
+                                Full Stack Development of projects using C#, .NET Framework 4.5, ASP.NET MVC 4, WCF, Windows Services, SignalR, SQL Server 2012, Javascript, jQuery, HTML, CSS and Bootstrap.
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Programmer<span class="tag is-warning is-pulled-right">2013</span></h5>
+                            <h6>RCS Informática</h6>
+                            <blockquote>
+                                Head of IT Systems design for company's customers (Common Artifacts: UML 2.0 Diagrams, DER-Database Model Diagrams).
+                                <br /><br />
+                                Full Stack Development using C#, .NET Framework 4, ASP.NET Webforms and ASP.NET MVC 3, SQL Server 2008, MySQL, NHibernate (Fluent Mapping with Fluent NHibernate), Javascript, jQuery, HTML and CSS.
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Computer Programmer<span class="tag is-warning is-pulled-right">2011-2012</span></h5>
+                            <h6>Arweb Sistemas</h6>
+                            <blockquote>
+                                Full stack development of Web Applications using C#, .NET Framework 3.5, ASP.NET Webforms, SQL Server 2008, Javascript, jQuery, HTML and CSS.
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Web Developer<span class="tag is-warning is-pulled-right">2011</span></h5>
+                            <h6>Agência Interag</h6>
+                            <blockquote>
+                                Full stack development of Websites and their CMS using C#, NET Framework 2.0, ASP.NET Webforms, Javascript, jQuery, HTML and CSS.
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Intern<span class="tag is-warning is-pulled-right">2010</span></h5>
+                            <h6>GTCON</h6>
+                            <blockquote>
+                                IT Technical Support, Computer Network Infrastructure Analysis and Solutions, Server Administration and Telecommunications (VoIP - Linux/Asterisk).
+                            </blockquote>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('work-experience-modal'); event.stopPropagation();"></button>
+    </div>
+
+    <div class="modal" id="skills-modal">
+        <div class="modal-background" onclick="toggleClass('skills-modal');"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="box">
+                    <div class="columns">
+                        <div class="column">
+                            <h1 class="title is-text-centered">Development</h1>
+                            <div class="meter emerald">
+                                <span style="width: 90%"><span>C#</span></span>
+                            </div>
+                            <div class="meter carrot">
+                                <span style="width: 90%"><span>.NET Framework</span></span>
+                            </div>
+                            <div class="meter grapefruit">
+                                <span style="width: 90%"><span>ASP.NET</span></span>
+                            </div>
+                            <div class="meter wisteria">
+                                <span style="width: 90%"><span>SQL</span></span>
+                            </div>
+                            <div class="meter bittersweet">
+                                <span style="width: 80%"><span>JavaScript</span></span>
+                            </div>
+                            <div class="meter pomengrate">
+                                <span style="width: 80%"><span>TypeScript</span></span>
+                            </div>
+                            <div class="meter grass">
+                                <span style="width: 60%"><span>Xamarin Android</span></span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-text-centered">Front-end</h1>
+                            <div class="meter sunflower">
+                                <span style="width: 80%"><span>HTML5</span></span>
+                            </div>
+                            <div class="meter mint">
+                                <span style="width: 75%"><span>CSS</span></span>
+                            </div>
+                            <div class="meter asbestos">
+                                <span style="width: 75%"><span>Angular 2+</span></span>
+                            </div>
+                            <div class="meter aqua">
+                                <span style="width: 70%"><span>jQuery</span></span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-text-centered">Engineering</h1>
+                            <div class="meter bluejeans">
+                                <span style="width: 90%"><span>Software Architecture</span></span>
+                            </div>
+                            <div class="meter sunflower">
+                                <span style="width: 90%"><span>Enterprise Applications</span></span>
+                            </div>
+                            <div class="meter lavender">
+                                <span style="width: 85%"><span>Design Patterns</span></span>
+                            </div>
+                            <div class="meter asbestos">
+                                <span style="width: 75%"><span>Cloud Computing</span></span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-text-centered">Management</h1>
+                            <div class="meter lavender">
+                                <span style="width: 80%"><span>Mentoring</span></span>
+                            </div>
+                            <div class="meter mint">
+                                <span style="width: 80%"><span>Leadership</span></span>
+                            </div>
+                            <div class="meter sunflower">
+                                <span style="width: 70%"><span>Agile/Scrum</span></span>
+                            </div>
+                            <div class="meter asbestos">
+                                <span style="width: 70%;font-size: 0.8em;"><span>Requirements Engineering</span></span>
+                            </div>
+                            <div class="meter wisteria">
+                                <span style="width: 70%"><span>UML</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('skills-modal'); event.stopPropagation();"></button>
+    </div>
+
+    <div class="modal" id="contact-modal">
+        <div class="modal-background" onclick="toggleClass('contact-modal');"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="box">
+                    <div class="columns">
+                        <div class="column is-text-centered">
+                            <h1 class="title "><i class="fa fa-map-marker"></i> Address</h1>
+                            <p>Auckland - New Zealand</p>
+                        </div>
+                        <div class="column is-text-centered">
+                            <h1 class="title"><i class="fa fa-mobile"></i> Phone</h1>
+                            <p>
+                                +64 021 0853 2451
+                            </p>
+                        </div>
+                        <div class="column is-text-centered">
+                            <h1 class="title"><i class="fa fa-envelope-o"></i> Mail</h1>
+                            <p class="email">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('contact-modal'); event.stopPropagation();"></button>
+    </div>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>
