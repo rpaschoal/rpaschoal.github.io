@@ -12,6 +12,8 @@
     background-image: url('../img/background.jpg') !important;
     background-color: #1c1c1c !important;
     background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
     opacity: 0.85;
 }
 
